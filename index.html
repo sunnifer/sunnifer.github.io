@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="sss/sss.min.js"></script>
+<link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
+
+<script>
+jQuery(function($) {
+$('.slider').sss();
+});
+</script>
+
 <link rel="stylesheet" href="sunnifer.github.io/style.css">
 </head>
 
@@ -11,39 +21,12 @@
 
 <p></p>
 
-<div class="container">
-	<div id="content-slider">
-		<div id="slider"> <!--Slider container-->
-			<div id="mask"> <!--Mask-->
-
-				<ul>
-					<li id="first" class="firstanimation"> <!-- ID for tooltip and class for animation -->
-						<a href="#"> <img src="http://sunnifer.github.io/dante.jpg" alt="Dante"/> </a>
-						<div class="tooltip"> <h1>Dante</h1></div>
-					</li>
-
-					<li id="second" class="secondanimation">
-						<a href="#"> <img src="sunnifer.github.io/katie.jpg" alt="Katie"/> </a>
-						<div class="tooltip"> <h1>Katie</h1></div>
-					</li>
-
-					<li id="third" class="thirdanimation">
-						<a href="#"> <img src="sunnifer.github.io/emersson.jpg" alt="Emersson"/> </a>
-						<div class="tooltip"> <h1>Emersson</h1></div>
-					</li>
-
-					<li id="fourth" class="fourthanimation">
-						<a href="#"> <img src="sunnifer.github.io/emily.jpg" alt="Emily"/> </a>
-						<div class="tooltip"> <h1>Emily</h1></div>
-					</li>
-				</ul>
-
-			</div> <!-- End Mask -->
-			<div class="progress-bar"></div> <!--Progress Bar-->
-		</div> <!-- End Slider Container -->
-	</div>
+<div class="slider">
+	<img src="http://sunnifer.github.io/dante.jpg" />
+	<img src="ttp://sunnifer.github.io/emersson.jpg" />
+	<img src="ttp://sunnifer.github.io/katie.jpg" />
+	<img src="ttp://sunnifer.github.io/emily.jpg" />
 </div>
-
 
 </body>
 </html>
