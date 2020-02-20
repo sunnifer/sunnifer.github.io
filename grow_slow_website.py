@@ -2,6 +2,7 @@
 # chron job this needs to be a separate file
 
 import os
+from bs4 import BeautifulSoup
 
 # take picture
 
@@ -14,5 +15,8 @@ os.system("mv /home/jsun/sunnifer.github.io/plantpics/plantpic.jpg $(date +%Y%m%
 # add time stamp
 
 # append new photo to bottom of page for now
+
+
+
 
 # update github
